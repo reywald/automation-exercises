@@ -7,4 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "robotframework>=7.4.1",
     "robotframework-browser>=19.12.3",
+    "robotframework-faker>=6.0.0",
+    "robotframework-robocop>=7.1.0",
 ]
