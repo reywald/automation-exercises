@@ -36,7 +36,14 @@ Generate Address Details
     ${city}=    FakerLibrary.City
     ${zipcode}=    FakerLibrary.Postal Code
     ${mobile_number}=    FakerLibrary.Phone Number
-    VAR    &{ADDRESS_DETAILS}=    first_name=${first_name}    last_name=${last_name}
+    VAR    &{ADDRESS_DETAILS}=    firstname=${first_name}    lastname=${last_name}
     ...    company=${company}    address1=${address1}    address2=${address2}
     ...    country=${country}    state=${state}    city=${city}    zipcode=${zipcode}    mobile_number=${mobile_number}
     RETURN    ${ADDRESS_DETAILS}
+
+Generate Login Details
+    [Documentation]    Generate login email and password
+    ${email}=    FakerLibrary.Email
+    ${password}=    FakerLibrary.Password
+    VAR    &{LOGIN_CREDENTIALS}=    email=${email}    password=${password}
+    RETURN    ${LOGIN_CREDENTIALS}

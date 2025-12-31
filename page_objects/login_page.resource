@@ -61,3 +61,11 @@ Fill Signup Form
     Fill Text    ${SIGNUP_EMAIL_FIELD}    ${email}
     Click    ${SIGNUP_BUTTON}
     Wait For Load State    domcontentloaded    timeout=10s
+
+Fill Login Form
+    [Documentation]    Fill in the login form with provided email and password
+    [Arguments]    ${email}    ${password}
+    Fill Text    ${LOGIN_EMAIL_FIELD}    ${email}
+    Fill Text    ${LOGIN_PASSWORD_FIELD}    ${password}
+    Click    ${LOGIN_BUTTON}
+    Wait For Load State    domcontentloaded    timeout=10s
