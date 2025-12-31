@@ -3,8 +3,8 @@ Documentation       Resources and variables for creating a user account.
 
 Library             Collections
 Library             RequestsLibrary
-Library             FakerLibrary
 Resource            generate_data.resource
+Resource            apis.resource
 
 
 *** Variables ***
@@ -23,7 +23,7 @@ Register User Account
     [Documentation]    Create a User Account by sending a POST request to the createAccount endpoint
     ${user_account} =    generate_data.Generate Valid User Account
 
-    ${response} =    POST On Session    ${SESSION_NAME}    api/createAccount    data=${user_account}
+    ${response} =    apis.Create User Account    ${user_account}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${201}
@@ -33,9 +33,8 @@ Register User Account
 Delete User Account
     [Documentation]    Delete a User account by sending a DELETE request
     [Arguments]    ${email}    ${password}
-    VAR    &{data} =    email=${email}    password=${password}
 
-    ${response} =    DELETE On Session    ${SESSION_NAME}    api/deleteAccount    data=${data}
+    ${response} =    apis.Delete User Account    email=${email}    password=${password}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${200}
