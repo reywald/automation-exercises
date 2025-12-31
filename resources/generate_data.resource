@@ -47,3 +47,10 @@ Generate Login Details
     ${password}=    FakerLibrary.Password
     VAR    &{LOGIN_CREDENTIALS}=    email=${email}    password=${password}
     RETURN    ${LOGIN_CREDENTIALS}
+
+Generate Valid User Account
+    [Documentation]    Create a new user account by generating user details and address information
+    ${user_details}=    Generate Account Details
+    ${user_address}=    Generate Address Details
+    VAR    &{USER_ACCOUNT}=    &{user_details}    &{user_address}
+    RETURN    ${USER_ACCOUNT}

@@ -4,7 +4,6 @@ Documentation       Test suite for user login functionality
 Library             Browser
 Resource            ../resources/browsing.resource
 Resource            ../resources/reusables.resource
-Resource            ../resources/generate_data.resource
 Resource            ../api/register.resource
 
 Suite Setup         Create User For Login
@@ -12,7 +11,7 @@ Suite Setup         Create User For Login
 
 
 *** Variables ***
-&{USER_DETAILS}     &{EMPTY}
+${USER_DETAILS}     ${EMPTY}
 
 
 *** Test Cases ***
@@ -22,7 +21,6 @@ Login User With Correct Email And Password
     reusables.Verify Homepage Is Visible
     reusables.Navigate To Login Page
     reusables.Verify In Login Page
-    Log To Console    User Details: ${USER_DETAILS}
     login_page.Fill Login Form    ${USER_DETAILS['email']}    ${USER_DETAILS['password']}
     reusables.Verify User Is Logged In    username=${USER_DETAILS['name']}
     reusables.Delete User Account

@@ -40,36 +40,36 @@ Verify In Signup Page
 
 Fill Account Information Form
     [Documentation]    Fill in the account information form with provided name, email, and other details
-    [Arguments]    ${account_details: dict}
-    IF    "${account_details['title']} == Mr."
+    [Arguments]    ${user_account: dict}
+    IF    "${user_account['title']} == Mr."
         Check Checkbox    ${ACCOUNT_MR_RADIO_BUTTON}
-    ELSE IF    "${account_details['title']} == Mrs."
+    ELSE IF    "${user_account['title']} == Mrs."
         Check Checkbox    ${ACCOUNT_MRS_RADIO_BUTTON}
     END
-    Fill Text    ${ACCOUNT_SIGNUP_PASSWORD_FIELD}    ${account_details['password']}
-    ${day} =    Evaluate    ${account_details['dob_day']} - 1
+    Fill Text    ${ACCOUNT_SIGNUP_PASSWORD_FIELD}    ${user_account['password']}
+    ${day} =    Evaluate    ${user_account['dob_day']} - 1
     Select Options By    ${ACCOUNT_SIGNUP_DOB_DAY_FIELD}    index    ${day}
-    Select Options By    ${ACCOUNT_SIGNUP_DOB_MONTH_FIELD}    label    ${account_details['dob_month']}
-    Select Options By    ${ACCOUNT_SIGNUP_DOB_YEAR_FIELD}    label    ${account_details['dob_year']}
-    IF    ${account_details['newsletter']}
+    Select Options By    ${ACCOUNT_SIGNUP_DOB_MONTH_FIELD}    label    ${user_account['dob_month']}
+    Select Options By    ${ACCOUNT_SIGNUP_DOB_YEAR_FIELD}    label    ${user_account['dob_year']}
+    IF    ${user_account['newsletter']}
         Check Checkbox    ${ACCOUNT_SIGNUP_NEWSLETTER_CHECKBOX}
     END
-    IF    ${account_details['offers']}
+    IF    ${user_account['offers']}
         Check Checkbox    ${ACCOUNT_SIGNUP_OFFERS_CHECKBOX}
     END
 
 Fill Address Information Form
     [Documentation]    Fill in the address information form with provided details
-    [Arguments]    ${address_details: dict}
-    Fill Text    ${ADDRESS_FIRST_NAME_FIELD}    ${address_details['first_name']}
-    Fill Text    ${ADDRESS_LAST_NAME_FIELD}    ${address_details['last_name']}
-    Fill Text    ${ADDRESS_COMPANY_FIELD}    ${address_details['company']}
-    Fill Text    ${ADDRESS_ADDRESS1_FIELD}    ${address_details['address1']}
-    Fill Text    ${ADDRESS_ADDRESS2_FIELD}    ${address_details['address2']}
-    Select Options By    ${ADDRESS_COUNTRY_DROPDOWN}    index    ${address_details['country']}
-    Fill Text    ${ADDRESS_STATE_FIELD}    ${address_details['state']}
-    Fill Text    ${ADDRESS_CITY_FIELD}    ${address_details['city']}
-    Fill Text    ${ADDRESS_ZIPCODE_FIELD}    ${address_details['zipcode']}
-    Fill Text    ${ADDRESS_MOBILE_NUMBER_FIELD}    ${address_details['mobile_number']}
+    [Arguments]    ${user_account: dict}
+    Fill Text    ${ADDRESS_FIRST_NAME_FIELD}    ${user_account['firstname']}
+    Fill Text    ${ADDRESS_LAST_NAME_FIELD}    ${user_account['lastname']}
+    Fill Text    ${ADDRESS_COMPANY_FIELD}    ${user_account['company']}
+    Fill Text    ${ADDRESS_ADDRESS1_FIELD}    ${user_account['address1']}
+    Fill Text    ${ADDRESS_ADDRESS2_FIELD}    ${user_account['address2']}
+    Select Options By    ${ADDRESS_COUNTRY_DROPDOWN}    index    ${user_account['country']}
+    Fill Text    ${ADDRESS_STATE_FIELD}    ${user_account['state']}
+    Fill Text    ${ADDRESS_CITY_FIELD}    ${user_account['city']}
+    Fill Text    ${ADDRESS_ZIPCODE_FIELD}    ${user_account['zipcode']}
+    Fill Text    ${ADDRESS_MOBILE_NUMBER_FIELD}    ${user_account['mobile_number']}
     Click    ${CREATE_ACCOUNT_BUTTON}
     Wait For Load State    domcontentloaded    timeout=10s

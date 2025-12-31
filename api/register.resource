@@ -21,16 +21,14 @@ Setup Session
 
 Register User Account
     [Documentation]    Create a User Account by sending a POST request to the createAccount endpoint
-    ${user_details} =    generate_data.Generate Account Details
-    ${user_address} =    generate_data.Generate Address Details
-    Set To Dictionary    ${user_details}    &{user_address}
+    ${user_account} =    generate_data.Generate Valid User Account
 
-    ${response} =    POST On Session    ${SESSION_NAME}    api/createAccount    data=${user_details}
+    ${response} =    POST On Session    ${SESSION_NAME}    api/createAccount    data=${user_account}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${201}
     Dictionary Should Contain Item    ${response.json()}    message    User created!
-    RETURN    ${user_details}
+    RETURN    ${user_account}
 
 Delete User Account
     [Documentation]    Delete a User account by sending a DELETE request

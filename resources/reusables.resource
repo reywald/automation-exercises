@@ -3,6 +3,7 @@ Documentation       Resource file for reusable keywords across multiple test sui
 
 Library             Browser
 Resource            ../resources/browsing.resource
+Resource            ../resources/generate_data.resource
 Resource            ../page_objects/homepage.resource
 Resource            ../page_objects/login_page.resource
 Resource            ../page_objects/signup_page.resource
@@ -42,6 +43,11 @@ Verify User Is Logged In
     [Documentation]    Verify that the user is logged in
     [Arguments]    ${username}
     homepage.Verify User Is Logged In    ${username}
+
+Create User For Login
+    [Documentation]    Create a user to use for testing
+    &{user_details}=    generate_data.Generate Valid User Account
+    RETURN    ${user_details}
 
 Delete User Account
     [Documentation]    Delete the logged in user account
