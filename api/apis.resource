@@ -100,9 +100,45 @@ Search Product
     RETURN    ${response}
 
 Search Product Without Search Word
-    [Documentation]    Search a product without a search word by sending a POST request to the api/searchProduct endpoint
+    [Documentation]    Search a product without search word by sending a POST request to the api/searchProduct endpoint
     ${response} =    POST On Session
     ...    ${SESSION_NAME}
     ...    api/searchProduct
+    ...    expected_status=anything
+    RETURN    ${response}
+
+Wrong Request Method - POST
+    [Documentation]    Send a POST request to the wrong endpoint
+    [Arguments]    ${url}    ${args}=${None}    ${data}=${None}    ${json}=${None}
+    ${response} =    POST On Session
+    ...    ${SESSION_NAME}
+    ...    url=${url}
+    ...    params=${args}
+    ...    data=${data}
+    ...    json=${json}
+    ...    expected_status=anything
+    RETURN    ${response}
+
+Wrong Request Method - PUT
+    [Documentation]    Send a PUT request to the wrong endpoint
+    [Arguments]    ${url}    ${args}=${None}    ${data}=${None}    ${json}=${None}
+    ${response} =    PUT On Session
+    ...    ${SESSION_NAME}
+    ...    url=${url}
+    ...    params=${args}
+    ...    data=${data}
+    ...    json=${json}
+    ...    expected_status=anything
+    RETURN    ${response}
+
+Wrong Request Method - DELETE
+    [Documentation]    Send a DELETE request to the wrong endpoint
+    [Arguments]    ${url}    ${args}=${None}    ${data}=${None}    ${json}=${None}
+    ${response} =    DELETE On Session
+    ...    ${SESSION_NAME}
+    ...    url=${url}
+    ...    params=${args}
+    ...    data=${data}
+    ...    json=${json}
     ...    expected_status=anything
     RETURN    ${response}

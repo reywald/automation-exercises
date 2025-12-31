@@ -18,6 +18,7 @@ ${USER_ACCOUNT}     ${EMPTY}
 *** Test Cases ***
 Get All Products List
     [Documentation]    Get the list of all products on the website
+    [Tags]    regression
     ${response} =    apis.Get All Products
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
@@ -30,6 +31,7 @@ Get All Products List
 
 Get All Brands List
     [Documentation]    Get the list of all brands on the website
+    [Tags]    regression
     ${response} =    apis.Get All Brands
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
@@ -42,6 +44,7 @@ Get All Brands List
 
 Search For A Product
     [Documentation]    Get a list of products by providing a search string
+    [Tags]    regression
     @{search_items} =    Evaluate
     ...    ["top", "shirt", "kids", "sleeves", "girls", "boys", "gown", "sleeveless", "dress"]
     ${item} =    FakerLibrary.Random Element    ${search_items}
@@ -56,6 +59,7 @@ Search For A Product
 
 Search For A Product Without Search Parameter
     [Documentation]    Get a list of products without providing a search string
+    [Tags]    regression    negative-testing
     ${response} =    apis.Search Product Without Search Word
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
@@ -65,6 +69,7 @@ Search For A Product Without Search Parameter
 
 Create/Register User Account
     [Documentation]    Verify that a user account can be created
+    [Tags]    regression
     ${user_creds} =    generate_data.Generate Valid User Account
 
     ${response} =    apis.Create User Account    ${user_creds}
@@ -76,6 +81,7 @@ Create/Register User Account
 
 Delete User Account
     [Documentation]    Delete a User account by sending a DELETE request
+    [Tags]    regression
     ${response} =    apis.Delete User Account    email=${USER_ACCOUNT['email']}    password=${USER_ACCOUNT['password']}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
@@ -84,6 +90,7 @@ Delete User Account
 
 Verify Login With Valid Credentials
     [Documentation]    Verify that login is successful with valid credentials
+    [Tags]    regression    login
     ${user_creds} =    generate_data.Generate Valid User Account
     apis.Create User Account    ${user_creds}
 
@@ -97,6 +104,7 @@ Verify Login With Valid Credentials
 
 Verify Login Without Email Credential
     [Documentation]    Verify that the login fails if there is no email
+    [Tags]    login    negative-testing
     VAR    &{credentials} =    password=${USER_ACCOUNT['password']}
     ${response} =    apis.Verify Login Credentials    credentials=${credentials}
     Status Should Be    200    ${response}
@@ -106,6 +114,7 @@ Verify Login Without Email Credential
 
 Verify Login With Invalid Credentials
     [Documentation]    Verify that the login fails if there is no email
+    [Tags]    login    negative-testing
     ${email} =    FakerLibrary.Email
     VAR    &{credentials} =    email=${email}    password=${USER_ACCOUNT['password']}
     ${response} =    apis.Verify Login Credentials    credentials=${credentials}
@@ -113,6 +122,30 @@ Verify Login With Invalid Credentials
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${404}
     Dictionary Should Contain Item    ${response.json()}    message    User not found!
+
+POST To All Products List
+    [Documentation]    Verify that issuing a POST request to the All Products List endpoint triggers a 405
+    ${response} =    apis.Wrong Request Method - POST    url=api/productsList
+    Status Should Be    200
+    Should Be Equal As Strings    ${response.reason}    OK
+    Dictionary Should Contain Item    ${response.json()}    responseCode    ${405}
+    Dictionary Should Contain Item    ${response.json()}    message    This request method is not supported.
+
+PUT To All Brands List
+    [Documentation]    Verify that issuing a PUT request to the All Brands List endpoint triggers a 405
+    ${response} =    apis.Wrong Request Method - PUT    url=api/brandsList
+    Status Should Be    200
+    Should Be Equal As Strings    ${response.reason}    OK
+    Dictionary Should Contain Item    ${response.json()}    responseCode    ${405}
+    Dictionary Should Contain Item    ${response.json()}    message    This request method is not supported.
+
+DELETE To Verify Login
+    [Documentation]    Verify that issuing a DELETE request to the Verify Login endpoint triggers a 405
+    ${response} =    apis.Wrong Request Method - DELETE    url=api/verifyLogin
+    Status Should Be    200
+    Should Be Equal As Strings    ${response.reason}    OK
+    Dictionary Should Contain Item    ${response.json()}    responseCode    ${405}
+    Dictionary Should Contain Item    ${response.json()}    message    This request method is not supported.
 
 
 *** Keywords ***
