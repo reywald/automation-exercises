@@ -33,6 +33,14 @@ Login User With Incorrect Email And Password
     browsing.Close Browser Session
     [Teardown]    apis.Delete User Account    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
 
+Logout User
+    [Documentation]    Test logging out a valid user
+    Login With Browser    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
+    reusables.Verify User Is Logged In    username=${USER_ACCOUNT['name']}
+    homepage.Click Menu Item    Logout
+    reusables.Verify In Login Page
+    [Teardown]    apis.Delete User Account    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
+
 
 *** Keywords ***
 Login With Browser
