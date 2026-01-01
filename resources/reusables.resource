@@ -46,12 +46,12 @@ Verify User Is Logged In
     homepage.Verify User Is Logged In    ${username}
 
 Create User For Login
-    [Documentation]    Create a user to use for testing
+    [Documentation]    Generate and store a user account for login tests
     ${user_details} =    generate_data.Generate Valid User Account
     VAR    ${USER_ACCOUNT} =    ${user_details}    scope=SUITE
 
 Create User Account
-    [Documentation]    Generate and register a user account for testing
+    [Documentation]    Generate and register a user account for testing using the API
     ${user_details} =    generate_data.Generate Valid User Account
     ${response} =    apis.Create User Account    user_account=${user_details}
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${201}
@@ -59,7 +59,7 @@ Create User Account
     VAR    ${USER_ACCOUNT} =    ${user_details}    scope=SUITE
 
 Delete User Account
-    [Documentation]    Delete the logged in user account
+    [Documentation]    Delete the logged in user account via the UI
     homepage.Click Menu Item    Delete Account
     account_deleted_page.Verify Account Deleted Page Is Visible
     account_deleted_page.Click Continue Button

@@ -21,24 +21,17 @@ Register New User
     [Documentation]    Test the user registration functionality
     reusables.Verify Homepage Is Visible
     reusables.Navigate To Login Page
-    Register New User
+    login_page.Fill Signup Form    ${USER_ACCOUNT['name']}    ${USER_ACCOUNT['email']}
     reusables.Verify In Signup Page
-    Fill Account Details
-    Fill Address Details
+    signup_page.Fill Account Information Form    ${USER_ACCOUNT}
+    signup_page.Fill Address Information Form    ${USER_ACCOUNT}
     reusables.Verify Account Created Page Is Visible
     reusables.Verify User Is Logged In    ${USER_ACCOUNT['name']}
     reusables.Delete User Account
 
-
-*** Keywords ***
-Register New User
-    [Documentation]    Register a new user with name and email
-    login_page.Fill Signup Form    ${USER_ACCOUNT['name']}    ${USER_ACCOUNT['email']}
-
-Fill Account Details
-    [Documentation]    Fill the Account Information form with details
-    signup_page.Fill Account Information Form    ${USER_ACCOUNT}
-
-Fill Address Details
-    [Documentation]    Fill the Address Information form with details
-    signup_page.Fill Address Information Form    ${USER_ACCOUNT}
+Register User With Existing Email
+    [Documentation]    Test when a new user is being registered with an existing email address
+    reusables.Verify Homepage Is Visible
+    reusables.Navigate To Login Page
+    login_page.Fill Signup Form    ${USER_ACCOUNT['name']}    john.doe@example.com
+    login_page.Verify Existing Email Error

@@ -70,8 +70,14 @@ Fill Login Form
     Click    ${LOGIN_BUTTON}
     Wait For Load State    domcontentloaded    timeout=10s
 
-Incorrect Credentials Error
+Verify Incorrect Credentials Error
     [Documentation]    Check for the message Your email or password is incorrect!
     ${error_message} =    Get Element    ${LOGIN_FORM} >> p[style='color: red;']
     Get Element States    ${error_message}    contains    visible
     Get Text    ${error_message}    ==    Your email or password is incorrect!
+
+Verify Existing Email Error
+    [Documentation]    Check for the message Email Address aleady exist!
+    ${error_message} =    Get Element    ${SIGNUP_FORM} >> p[style='color: red;']
+    Get Element States    ${error_message}    contains    visible
+    Get Text    ${error_message}    ==    Email Address already exist!

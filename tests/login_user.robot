@@ -29,7 +29,7 @@ Login User With Incorrect Email And Password
     ${password} =    FakerLibrary.Password
     Login With Browser    ${email}    ${password}
     reusables.Verify In Login Page
-    login_page.Incorrect Credentials Error
+    login_page.Verify Incorrect Credentials Error
     browsing.Close Browser Session
     [Teardown]    apis.Delete User Account    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
 
@@ -39,6 +39,7 @@ Logout User
     reusables.Verify User Is Logged In    username=${USER_ACCOUNT['name']}
     homepage.Click Menu Item    Logout
     reusables.Verify In Login Page
+    browsing.Close Browser Session
     [Teardown]    apis.Delete User Account    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
 
 
