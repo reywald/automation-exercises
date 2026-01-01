@@ -4,6 +4,7 @@ Documentation       Resource file for reusable keywords across multiple test sui
 Library             Browser
 Resource            ../resources/browsing.resource
 Resource            ../resources/generate_data.resource
+Resource            ../api/apis.resource
 Resource            ../page_objects/homepage.resource
 Resource            ../page_objects/login_page.resource
 Resource            ../page_objects/signup_page.resource
@@ -46,8 +47,16 @@ Verify User Is Logged In
 
 Create User For Login
     [Documentation]    Create a user to use for testing
-    &{user_details}=    generate_data.Generate Valid User Account
-    RETURN    ${user_details}
+    ${user_details} =    generate_data.Generate Valid User Account
+    VAR    ${USER_ACCOUNT} =    ${user_details}    scope=SUITE
+
+Create User Account
+    [Documentation]    Generate and register a user account for testing
+    ${user_details} =    generate_data.Generate Valid User Account
+    ${response} =    apis.Create User Account    user_account=${user_details}
+    Dictionary Should Contain Item    ${response.json()}    responseCode    ${201}
+    Dictionary Should Contain Item    ${response.json()}    message    User created!
+    VAR    ${USER_ACCOUNT} =    ${user_details}    scope=SUITE
 
 Delete User Account
     [Documentation]    Delete the logged in user account

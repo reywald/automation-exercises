@@ -6,6 +6,7 @@ Library             RequestsLibrary
 Library             FakerLibrary
 Resource            generate_data.resource
 Resource            ../api/apis.resource
+Resource            reusables.resource
 
 Suite Setup         apis.Setup Session
 Suite Teardown      apis.Close Session
@@ -71,17 +72,18 @@ Create/Register User Account
     [Documentation]    Verify that a user account can be created
     [Tags]    regression
     ${user_creds} =    generate_data.Generate Valid User Account
-
     ${response} =    apis.Create User Account    ${user_creds}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${201}
     Dictionary Should Contain Item    ${response.json()}    message    User created!
-    VAR    ${USER_ACCOUNT} =    ${user_creds}    scope=SUITE
+    [Teardown]    apis.Delete User Account    ${user_creds['email']}    ${user_creds['password']}
 
 Delete User Account
     [Documentation]    Delete a User account by sending a DELETE request
     [Tags]    regression
+    [Setup]    reusables.Create User Account
+
     ${response} =    apis.Delete User Account    email=${USER_ACCOUNT['email']}    password=${USER_ACCOUNT['password']}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
@@ -91,30 +93,34 @@ Delete User Account
 Verify Login With Valid Credentials
     [Documentation]    Verify that login is successful with valid credentials
     [Tags]    regression    login
-    ${user_creds} =    generate_data.Generate Valid User Account
-    apis.Create User Account    ${user_creds}
+    [Setup]    reusables.Create User Account
 
-    VAR    &{credentials} =    email=${user_creds['email']}    password=${user_creds['password']}
+    VAR    &{credentials} =    email=${USER_ACCOUNT['email']}    password=${USER_ACCOUNT['password']}
     ${response} =    apis.Verify Login Credentials    credentials=${credentials}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${200}
     Dictionary Should Contain Item    ${response.json()}    message    User exists!
-    VAR    ${USER_ACCOUNT} =    ${user_creds}    scope=SUITE
+    [Teardown]    apis.Delete User Account    email=${USER_ACCOUNT['email']}    password=${USER_ACCOUNT['password']}
 
 Verify Login Without Email Credential
     [Documentation]    Verify that the login fails if there is no email
     [Tags]    login    negative-testing
+    [Setup]    reusables.Create User Account
+
     VAR    &{credentials} =    password=${USER_ACCOUNT['password']}
     ${response} =    apis.Verify Login Credentials    credentials=${credentials}
     Status Should Be    200    ${response}
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${400}
     Should Contain    ${response.json()}[message]    email or password parameter is missing
+    [Teardown]    apis.Delete User Account    email=${USER_ACCOUNT['email']}    password=${USER_ACCOUNT['password']}
 
 Verify Login With Invalid Credentials
     [Documentation]    Verify that the login fails if there is no email
     [Tags]    login    negative-testing
+    [Setup]    reusables.Create User Account
+
     ${email} =    FakerLibrary.Email
     VAR    &{credentials} =    email=${email}    password=${USER_ACCOUNT['password']}
     ${response} =    apis.Verify Login Credentials    credentials=${credentials}
@@ -122,6 +128,7 @@ Verify Login With Invalid Credentials
     Should Be Equal As Strings    ${response.reason}    OK
     Dictionary Should Contain Item    ${response.json()}    responseCode    ${404}
     Dictionary Should Contain Item    ${response.json()}    message    User not found!
+    [Teardown]    apis.Delete User Account    email=${USER_ACCOUNT['email']}    password=${USER_ACCOUNT['password']}
 
 POST To All Products List
     [Documentation]    Verify that issuing a POST request to the All Products List endpoint triggers a 405

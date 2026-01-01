@@ -7,7 +7,7 @@ Library             FakerLibrary
 Resource            ../resources/generate_data.resource
 Resource            ../resources/reusables.resource
 
-Suite Setup         Create User For Login
+Suite Setup         reusables.Create User For Login
 Test Setup          browsing.Open Website
 Test Teardown       browsing.Close Browser Session
 
@@ -42,8 +42,3 @@ Fill Account Details
 Fill Address Details
     [Documentation]    Fill the Address Information form with details
     signup_page.Fill Address Information Form    ${USER_ACCOUNT}
-
-Create User For Login
-    [Documentation]    Create a user to use for testing
-    ${user_details} =    generate_data.Generate Valid User Account
-    VAR    ${USER_ACCOUNT} =    ${user_details}    scope=SUITE

@@ -2,38 +2,44 @@
 Documentation       Test suite for user login functionality
 
 Library             Browser
-Resource            ../resources/browsing.resource
-Resource            ../resources/reusables.resource
-Resource            ../api/register.resource
+Resource            browsing.resource
+Resource            ../api/apis.resource
+Resource            reusables.resource
 
-Suite Setup         Create User For Login
-# Suite Teardown    Delete User
+Suite Setup         apis.Setup Session
+Suite Teardown      apis.Close Session
+Test Setup          reusables.Create User Account
 
 
 *** Variables ***
-${USER_DETAILS}     ${EMPTY}
+${USER_ACCOUNT}     ${EMPTY}
 
 
 *** Test Cases ***
 Login User With Correct Email And Password
     [Documentation]    Test user login with valid email and password
+    Login With Browser    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
+    reusables.Verify User Is Logged In    username=${USER_ACCOUNT['name']}
+    reusables.Delete User Account
+    browsing.Close Browser Session
+
+Login User With Incorrect Email And Password
+    [Documentation]    Test user login with incorrect email and password
+    ${email} =    FakerLibrary.Free Email
+    ${password} =    FakerLibrary.Password
+    Login With Browser    ${email}    ${password}
+    reusables.Verify In Login Page
+    login_page.Incorrect Credentials Error
+    browsing.Close Browser Session
+    [Teardown]    apis.Delete User Account    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
+
+
+*** Keywords ***
+Login With Browser
+    [Documentation]    Steps to login as a user with the browser
+    [Arguments]    ${email}    ${password}
     browsing.Open Website
     reusables.Verify Homepage Is Visible
     reusables.Navigate To Login Page
     reusables.Verify In Login Page
-    login_page.Fill Login Form    ${USER_DETAILS['email']}    ${USER_DETAILS['password']}
-    reusables.Verify User Is Logged In    username=${USER_DETAILS['name']}
-    reusables.Delete User Account
-    browsing.Close Browser Session
-
-
-*** Keywords ***
-Create User For Login
-    [Documentation]    Create a user to use for testing
-    register.Setup Session
-    ${details} =    register.Register User Account
-    VAR    ${USER_DETAILS} =    ${details}    scope=SUITE
-
-Delete User
-    [Documentation]    Delete the created user after testing concludes
-    register.Delete User Account    ${USER_DETAILS['email']}    ${USER_DETAILS['password']}
+    login_page.Fill Login Form    email=${email}    password=${password}

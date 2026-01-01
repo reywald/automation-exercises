@@ -69,3 +69,9 @@ Fill Login Form
     Fill Text    ${LOGIN_PASSWORD_FIELD}    ${password}
     Click    ${LOGIN_BUTTON}
     Wait For Load State    domcontentloaded    timeout=10s
+
+Incorrect Credentials Error
+    [Documentation]    Check for the message Your email or password is incorrect!
+    ${error_message} =    Get Element    ${LOGIN_FORM} >> p[style='color: red;']
+    Get Element States    ${error_message}    contains    visible
+    Get Text    ${error_message}    ==    Your email or password is incorrect!
