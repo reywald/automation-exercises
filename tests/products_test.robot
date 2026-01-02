@@ -23,3 +23,11 @@ Verify All Products And Product Detail Page
     ...    condition=New
     ...    brand=Polo
     product_detail_page.Verify Product Details Are Correct    ${expected_product_details}
+
+Search For A Product And Verify Results
+    [Documentation]    Test to search for a product and verify the search results
+    reusables.Verify Homepage Is Visible
+    homepage.Click Menu Item    Products
+    products_page.Verify In All Products Page
+    products_page.Search For A Product    product_name=Top
+    products_page.Verify Search Returns Matched Products    search_str=Top
