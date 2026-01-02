@@ -43,6 +43,7 @@ Logout User
     [Teardown]    apis.Delete User Account    ${USER_ACCOUNT['email']}    ${USER_ACCOUNT['password']}
 
 
+
 *** Keywords ***
 Login With Browser
     [Documentation]    Steps to login as a user with the browser

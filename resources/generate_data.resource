@@ -54,3 +54,13 @@ Generate Valid User Account
     ${user_address}=    Generate Address Details
     VAR    &{USER_ACCOUNT}=    &{user_details}    &{user_address}
     RETURN    ${USER_ACCOUNT}
+
+Generate Contact Us Details
+    [Documentation]    Create contact us form details
+    ${name}=    FakerLibrary.Name
+    ${email}=    FakerLibrary.Email
+    ${subject}=    FakerLibrary.Catch Phrase
+    ${message}=    FakerLibrary.Sentences    10
+    ${message}=    Catenate    @{message}
+    VAR    &{CONTACT_US_DETAILS}=    name=${name}    email=${email}    subject=${subject}    message=${message}
+    RETURN    ${CONTACT_US_DETAILS}
