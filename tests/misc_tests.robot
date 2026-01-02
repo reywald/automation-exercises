@@ -4,6 +4,7 @@ Documentation       Tests for Contact Us Form, Test Cases, Products, Search, Sub
 Resource            reusables.resource
 Resource            ../page_objects/contact_us_page.resource
 Resource            ../page_objects/testcases_page.resource
+Resource            ../page_objects/api_testing_page.resource
 
 Test Setup          browsing.Open Website
 Test Teardown       browsing.Close Browser Session
@@ -26,3 +27,9 @@ Verify Test Cases Page
     reusables.Verify Homepage Is Visible
     homepage.Click Menu Item    Test Cases
     testcases_page.Verify In Test Cases Page
+
+Verify API Testing Page
+    [Documentation]    Test to navigate to the API List Page
+    reusables.Verify Homepage Is Visible
+    homepage.Click Menu Item    API Testing
+    api_testing_page.Verify In API Testing Page
