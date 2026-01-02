@@ -31,3 +31,12 @@ Search For A Product And Verify Results
     products_page.Verify In All Products Page
     products_page.Search For A Product    product_name=Top
     products_page.Verify Search Returns Matched Products    search_str=Top
+
+Verify Subscription In Home Page
+    [Documentation]    Test to make a subscription
+    reusables.Verify Homepage Is Visible
+    homepage.Scroll To Bottom Of Home Page
+    homepage.Verify Subscription Form Is Visible
+    ${email} =    FakerLibrary.Company Email
+    homepage.Subscribe To Updates    ${email}
+    homepage.Verify Subscription Is Successful
