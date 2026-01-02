@@ -3,6 +3,7 @@ Documentation       Tests for Contact Us Form, Test Cases, Products, Search, Sub
 
 Resource            reusables.resource
 Resource            ../page_objects/contact_us_page.resource
+Resource            ../page_objects/testcases_page.resource
 
 Test Setup          browsing.Open Website
 Test Teardown       browsing.Close Browser Session
@@ -19,3 +20,9 @@ Submit The Contact Us Form Successfully
     contact_us_page.Verify Contact Form Submitted
     contact_us_page.Navigate To Home Page
     reusables.Verify Homepage Is Visible
+
+Verify Test Cases Page
+    [Documentation]    Test to navigate to the Test Cases Page
+    reusables.Verify Homepage Is Visible
+    homepage.Click Menu Item    Test Cases
+    testcases_page.Verify In Test Cases Page

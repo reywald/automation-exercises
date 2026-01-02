@@ -1,328 +1,157 @@
-{"level":30,"time":"2026-01-02T08:48:05.030Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Listening on 127.0.0.1:51726"}
-{"level":30,"time":"2026-01-02T08:48:05.246Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-01-02T08:48:05.939Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
-{"level":30,"time":"2026-01-02T08:48:05.940Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-01-02T08:48:05.940Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-01-02T08:48:05.950Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-01-02T08:48:05.951Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1536,\"height\":816}}"}
-{"level":30,"time":"2026-01-02T08:48:05.951Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@0784c214225f1618ded746ee8134fc72\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=04cae23f-d870-45cc-be85-6d471b3c5e8a\"}"}
-{"level":30,"time":"2026-01-02T08:48:05.951Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Trace file: "}
-{"level":30,"time":"2026-01-02T08:48:05.972Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Setting default timeout for context context=b927522c-47a0-45b8-ab59-ae5b378203e4 to 10000"}
-{"level":30,"time":"2026-01-02T08:48:05.972Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Changed active context: context=b927522c-47a0-45b8-ab59-ae5b378203e4"}
-{"level":30,"time":"2026-01-02T08:48:05.972Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method newContext"}
-{"level":30,"time":"2026-01-02T08:48:05.979Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-01-02T08:48:05.979Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@0784c214225f1618ded746ee8134fc72\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=b927522c-47a0-45b8-ab59-ae5b378203e4\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@77e23e943d480efd498f23e9d26a304c\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1536,\"height\":816}},\"traceFile\":\"\"}],\"id\":\"browser=04cae23f-d870-45cc-be85-6d471b3c5e8a\"}"}
-{"level":30,"time":"2026-01-02T08:48:06.594Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Video path: undefined"}
-{"level":30,"time":"2026-01-02T08:48:06.594Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Changed active page"}
-{"level":30,"time":"2026-01-02T08:48:10.179Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method newPage"}
-{"level":30,"time":"2026-01-02T08:48:10.213Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:10.213Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
-{"level":30,"time":"2026-01-02T08:48:10.255Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:10.260Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.260Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
-{"level":30,"time":"2026-01-02T08:48:10.284Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element id=header >> img is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=header').locator('img')\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.284Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.313Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.323Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:10.324Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
-{"level":30,"time":"2026-01-02T08:48:10.341Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element id=header >> img containing Website for automation practice"}
-{"level":30,"time":"2026-01-02T08:48:10.341Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:10.347Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:10.347Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
-{"level":30,"time":"2026-01-02T08:48:10.347Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
-{"level":30,"time":"2026-01-02T08:48:10.362Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
-{"level":30,"time":"2026-01-02T08:48:10.363Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:10.378Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.378Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.407Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.407Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.424Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.430Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.430Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.448Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
-{"level":30,"time":"2026-01-02T08:48:10.450Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.457Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.457Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.480Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=1 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(1)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.480Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.520Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.526Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.526Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.542Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=1 containing  Products"}
-{"level":30,"time":"2026-01-02T08:48:10.542Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.546Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.546Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.563Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=2 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(2)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.563Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.577Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.582Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.582Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.604Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=2 containing  Cart"}
-{"level":30,"time":"2026-01-02T08:48:10.604Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.609Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.609Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.628Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=3 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(3)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.628Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.643Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.649Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.649Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.662Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=3 containing  Signup / Login"}
-{"level":30,"time":"2026-01-02T08:48:10.662Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.669Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.669Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.688Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=4 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(4)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.688Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.702Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.708Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.708Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.728Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=4 containing  Test Cases"}
-{"level":30,"time":"2026-01-02T08:48:10.728Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.736Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.737Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.754Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=5 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(5)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.754Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.762Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.768Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.769Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.788Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=5 containing  API Testing"}
-{"level":30,"time":"2026-01-02T08:48:10.788Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.794Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.794Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.813Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=6 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(6)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.813Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.825Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.829Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.829Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.843Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=6 containing  Video Tutorials"}
-{"level":30,"time":"2026-01-02T08:48:10.843Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.847Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.847Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.859Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=7 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(7)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.859Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.868Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.871Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.872Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.879Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=7 containing  Contact us"}
-{"level":30,"time":"2026-01-02T08:48:10.879Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.885Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:10.885Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
-{"level":30,"time":"2026-01-02T08:48:10.885Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
-{"level":30,"time":"2026-01-02T08:48:10.890Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
-{"level":30,"time":"2026-01-02T08:48:10.891Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:10.896Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.896Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.907Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.907Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.914Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.918Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.918Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:10.927Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
-{"level":30,"time":"2026-01-02T08:48:10.927Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.933Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:10.933Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 >> a in page."}
-{"level":30,"time":"2026-01-02T08:48:10.941Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element css=#header .shop-menu li >> nth=0 >> a containing color: orange;"}
-{"level":30,"time":"2026-01-02T08:48:10.941Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:10.944Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:10.944Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
-{"level":30,"time":"2026-01-02T08:48:10.947Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:10.953Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.953Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
-{"level":30,"time":"2026-01-02T08:48:10.964Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element id=slider-carousel >> .carousel-inner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=slider-carousel').locator('.carousel-inner')\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:10.964Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:10.977Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:10.982Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:10.982Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
-{"level":30,"time":"2026-01-02T08:48:11.001Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=slider-carousel >> .carousel-inner containing AutomationExercise\nFull-Fledged practice website for Automation Engineers\n\nAll QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.\n\nTest Cases APIs list for practice"}
-{"level":30,"time":"2026-01-02T08:48:11.001Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:11.008Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
-{"level":30,"time":"2026-01-02T08:48:11.008Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> a >> text=Contact Us in page."}
-{"level":30,"time":"2026-01-02T08:48:11.536Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
-{"level":30,"time":"2026-01-02T08:48:11.544Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2026-01-02T08:48:11.544Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"timeout: 10000 state: domcontentloaded"}
-{"level":30,"time":"2026-01-02T08:48:13.337Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2026-01-02T08:48:13.349Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:13.350Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> h2 >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:13.389Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=contact-page >> h2 >> nth=0 containing CONTACT US"}
-{"level":30,"time":"2026-01-02T08:48:13.389Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:13.393Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:13.393Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> .contact-form >> h2 in page."}
-{"level":30,"time":"2026-01-02T08:48:13.406Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=contact-page >> .contact-form >> h2 containing GET IN TOUCH"}
-{"level":30,"time":"2026-01-02T08:48:13.406Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:13.427Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.427Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form-section >> id=contact-us-form >> input[name='name'] in page."}
-{"level":30,"time":"2026-01-02T08:48:13.443Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.454Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.454Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form-section >> id=contact-us-form >> input[name='email'] in page."}
-{"level":30,"time":"2026-01-02T08:48:13.468Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.475Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.475Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form-section >> id=contact-us-form >> input[name='subject'] in page."}
-{"level":30,"time":"2026-01-02T08:48:13.487Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.494Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.494Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form-section >> id=contact-us-form >> id=message in page."}
-{"level":30,"time":"2026-01-02T08:48:13.519Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method fillText"}
-{"level":30,"time":"2026-01-02T08:48:13.546Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Reading multiplepart uploadFileBySelector"}
-{"level":30,"time":"2026-01-02T08:48:13.546Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form-section >> id=contact-us-form >> input[name='upload_file'] in page."}
-{"level":30,"time":"2026-01-02T08:48:13.546Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Uploading file(s) C:\\resources\\upload\\sunset.jpg to id=form-section >> id=contact-us-form >> input[name='upload_file']"}
-{"level":30,"time":"2026-01-02T08:48:13.575Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method handleAlert"}
-{"level":30,"time":"2026-01-02T08:48:13.575Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method handleAlert"}
-{"level":30,"time":"2026-01-02T08:48:13.580Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
-{"level":30,"time":"2026-01-02T08:48:13.580Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form-section >> id=contact-us-form >> input[name='submit'] in page."}
-{"level":30,"time":"2026-01-02T08:48:13.635Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Alert text: Press OK to proceed!"}
-{"level":30,"time":"2026-01-02T08:48:13.642Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
-{"level":30,"time":"2026-01-02T08:48:13.645Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2026-01-02T08:48:13.645Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"timeout: 10000 state: domcontentloaded"}
-{"level":30,"time":"2026-01-02T08:48:13.646Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2026-01-02T08:48:13.657Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:13.657Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form-section >> id=contact-us-form in page."}
-{"level":30,"time":"2026-01-02T08:48:13.918Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:13.923Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:13.923Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> .contact-form >> .alert-success in page."}
-{"level":30,"time":"2026-01-02T08:48:13.928Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:13.937Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:13.937Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> .contact-form >> .alert-success in page."}
-{"level":30,"time":"2026-01-02T08:48:13.952Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element id=contact-page >> .contact-form >> .alert-success is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=contact-page').locator('.contact-form').locator('.alert-success')\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:13.952Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:13.967Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:13.973Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:13.974Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> .contact-form >> .alert-success in page."}
-{"level":30,"time":"2026-01-02T08:48:13.991Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=contact-page >> .contact-form >> .alert-success containing Success! Your details have been submitted successfully."}
-{"level":30,"time":"2026-01-02T08:48:13.992Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:13.996Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:13.996Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> .contact-form >> id=form-section >> a.btn-success in page."}
-{"level":30,"time":"2026-01-02T08:48:14.011Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element id=contact-page >> .contact-form >> id=form-section >> a.btn-success is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=contact-page').locator('.contact-form').locator('id=form-section').locator('a.btn-success')\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.012Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.024Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.029Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:14.029Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> .contact-form >> id=form-section >> a.btn-success in page."}
-{"level":30,"time":"2026-01-02T08:48:14.035Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:14.040Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
-{"level":30,"time":"2026-01-02T08:48:14.041Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=contact-page >> .contact-form >> id=form-section >> a.btn-success in page."}
-{"level":30,"time":"2026-01-02T08:48:14.509Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
-{"level":30,"time":"2026-01-02T08:48:14.515Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method WaitForPageLoadState"}
-{"level":30,"time":"2026-01-02T08:48:14.515Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"timeout: 10000 state: domcontentloaded"}
-{"level":30,"time":"2026-01-02T08:48:14.524Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method WaitForPageLoadState"}
-{"level":30,"time":"2026-01-02T08:48:14.538Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:14.538Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
-{"level":30,"time":"2026-01-02T08:48:14.571Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:14.575Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.575Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
-{"level":30,"time":"2026-01-02T08:48:14.590Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element id=header >> img is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=header').locator('img')\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.590Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.608Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.612Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:14.612Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
-{"level":30,"time":"2026-01-02T08:48:14.622Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element id=header >> img containing Website for automation practice"}
-{"level":30,"time":"2026-01-02T08:48:14.622Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:14.627Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:14.627Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
-{"level":30,"time":"2026-01-02T08:48:14.627Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
-{"level":30,"time":"2026-01-02T08:48:14.639Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
-{"level":30,"time":"2026-01-02T08:48:14.639Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:14.645Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.645Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.663Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.663Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.681Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.689Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.689Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.706Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
-{"level":30,"time":"2026-01-02T08:48:14.706Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.711Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.711Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.726Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=1 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(1)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.726Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.741Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.746Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.746Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.758Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=1 containing  Products"}
-{"level":30,"time":"2026-01-02T08:48:14.758Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.764Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.764Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.779Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=2 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(2)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.779Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.791Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.795Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.795Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.809Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=2 containing  Cart"}
-{"level":30,"time":"2026-01-02T08:48:14.809Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.816Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.816Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.828Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=3 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(3)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.828Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.845Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.851Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.851Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.862Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=3 containing  Signup / Login"}
-{"level":30,"time":"2026-01-02T08:48:14.862Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.869Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.869Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.882Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=4 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(4)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.882Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.893Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.897Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.897Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.908Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=4 containing  Test Cases"}
-{"level":30,"time":"2026-01-02T08:48:14.908Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.912Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.912Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.923Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=5 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(5)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.923Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:14.933Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.937Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.937Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.959Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=5 containing  API Testing"}
-{"level":30,"time":"2026-01-02T08:48:14.959Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:14.969Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:14.969Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
-{"level":30,"time":"2026-01-02T08:48:14.992Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=6 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(6)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:14.992Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:15.009Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:15.014Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:15.014Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
-{"level":30,"time":"2026-01-02T08:48:15.039Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=6 containing  Video Tutorials"}
-{"level":30,"time":"2026-01-02T08:48:15.039Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:15.047Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:15.047Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
-{"level":30,"time":"2026-01-02T08:48:15.074Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=7 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(7)\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:15.074Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:15.123Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:15.129Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:15.129Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
-{"level":30,"time":"2026-01-02T08:48:15.159Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=7 containing  Contact us"}
-{"level":30,"time":"2026-01-02T08:48:15.159Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:15.168Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:15.168Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
-{"level":30,"time":"2026-01-02T08:48:15.168Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
-{"level":30,"time":"2026-01-02T08:48:15.176Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
-{"level":30,"time":"2026-01-02T08:48:15.177Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
-{"level":30,"time":"2026-01-02T08:48:15.186Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:15.187Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:15.207Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:15.207Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:15.217Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:15.222Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:15.222Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
-{"level":30,"time":"2026-01-02T08:48:15.232Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
-{"level":30,"time":"2026-01-02T08:48:15.233Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:15.237Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:15.237Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 >> a in page."}
-{"level":30,"time":"2026-01-02T08:48:15.246Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element css=#header .shop-menu li >> nth=0 >> a containing color: orange;"}
-{"level":30,"time":"2026-01-02T08:48:15.246Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
-{"level":30,"time":"2026-01-02T08:48:15.253Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:15.253Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
-{"level":30,"time":"2026-01-02T08:48:15.256Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
-{"level":30,"time":"2026-01-02T08:48:15.261Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:15.261Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
-{"level":30,"time":"2026-01-02T08:48:15.275Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Element id=slider-carousel >> .carousel-inner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=slider-carousel').locator('.carousel-inner')\u001b[22m\n"}
-{"level":30,"time":"2026-01-02T08:48:15.275Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
-{"level":30,"time":"2026-01-02T08:48:15.285Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
-{"level":30,"time":"2026-01-02T08:48:15.289Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:15.289Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
-{"level":30,"time":"2026-01-02T08:48:15.301Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=slider-carousel >> .carousel-inner containing AutomationExercise\nFull-Fledged practice website for Automation Engineers\n\nAll QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.\n\nTest Cases APIs list for practice"}
-{"level":30,"time":"2026-01-02T08:48:15.301Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
-{"level":30,"time":"2026-01-02T08:48:20.308Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-01-02T08:48:20.328Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Removed page=66ddee4f-50d8-4816-91db-ab6d8b0d6cdb from context=b927522c-47a0-45b8-ab59-ae5b378203e4 page stack"}
-{"level":30,"time":"2026-01-02T08:48:21.531Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-01-02T09:23:32.534Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Listening on 127.0.0.1:53802"}
+{"level":30,"time":"2026-01-02T09:23:32.721Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-01-02T09:23:33.355Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2026-01-02T09:23:33.356Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-01-02T09:23:33.356Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-01-02T09:23:33.386Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-01-02T09:23:33.386Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1536,\"height\":816}}"}
+{"level":30,"time":"2026-01-02T09:23:33.386Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@36674ebb62a4ffa0c3a61ea23296e4c8\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=2690760a-5677-49d6-9238-96c7be7d355c\"}"}
+{"level":30,"time":"2026-01-02T09:23:33.386Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Trace file: "}
+{"level":30,"time":"2026-01-02T09:23:33.405Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Setting default timeout for context context=772a89b7-8435-4d57-9ab6-4481072349ec to 10000"}
+{"level":30,"time":"2026-01-02T09:23:33.406Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Changed active context: context=772a89b7-8435-4d57-9ab6-4481072349ec"}
+{"level":30,"time":"2026-01-02T09:23:33.406Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method newContext"}
+{"level":30,"time":"2026-01-02T09:23:33.413Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-01-02T09:23:33.413Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@36674ebb62a4ffa0c3a61ea23296e4c8\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=772a89b7-8435-4d57-9ab6-4481072349ec\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@a8f7619e13059a87952ae5847f5fa69a\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1536,\"height\":816}},\"traceFile\":\"\"}],\"id\":\"browser=2690760a-5677-49d6-9238-96c7be7d355c\"}"}
+{"level":30,"time":"2026-01-02T09:23:34.013Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Video path: undefined"}
+{"level":30,"time":"2026-01-02T09:23:34.013Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Changed active page"}
+{"level":30,"time":"2026-01-02T09:23:39.372Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method newPage"}
+{"level":30,"time":"2026-01-02T09:23:39.411Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
+{"level":30,"time":"2026-01-02T09:23:39.411Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
+{"level":30,"time":"2026-01-02T09:23:39.460Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
+{"level":30,"time":"2026-01-02T09:23:39.473Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.474Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
+{"level":30,"time":"2026-01-02T09:23:39.516Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element id=header >> img is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=header').locator('img')\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.516Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.559Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.567Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2026-01-02T09:23:39.567Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
+{"level":30,"time":"2026-01-02T09:23:39.579Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element id=header >> img containing Website for automation practice"}
+{"level":30,"time":"2026-01-02T09:23:39.579Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2026-01-02T09:23:39.586Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-01-02T09:23:39.587Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
+{"level":30,"time":"2026-01-02T09:23:39.587Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-01-02T09:23:39.597Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
+{"level":30,"time":"2026-01-02T09:23:39.598Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
+{"level":30,"time":"2026-01-02T09:23:39.607Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.607Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.637Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.637Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.655Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.660Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.660Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.675Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
+{"level":30,"time":"2026-01-02T09:23:39.675Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.680Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.681Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.694Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=1 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(1)\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.694Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.707Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.710Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.710Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.722Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=1 containing  Products"}
+{"level":30,"time":"2026-01-02T09:23:39.722Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.727Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.727Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.742Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=2 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(2)\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.742Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.751Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.755Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.755Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.765Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=2 containing  Cart"}
+{"level":30,"time":"2026-01-02T09:23:39.765Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.770Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.770Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.786Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=3 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(3)\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.786Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.795Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.799Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.799Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.813Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=3 containing  Signup / Login"}
+{"level":30,"time":"2026-01-02T09:23:39.813Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.820Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.820Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.836Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=4 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(4)\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.836Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.847Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.854Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.854Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.865Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=4 containing  Test Cases"}
+{"level":30,"time":"2026-01-02T09:23:39.865Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.871Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.871Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.888Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=5 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(5)\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.888Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.897Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.902Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.902Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.911Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=5 containing  API Testing"}
+{"level":30,"time":"2026-01-02T09:23:39.911Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.918Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.918Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.929Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=6 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(6)\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.929Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.941Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.946Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.946Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.960Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=6 containing  Video Tutorials"}
+{"level":30,"time":"2026-01-02T09:23:39.960Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:39.967Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:39.967Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
+{"level":30,"time":"2026-01-02T09:23:39.987Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=7 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(7)\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:39.987Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:39.999Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:40.004Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:40.004Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
+{"level":30,"time":"2026-01-02T09:23:40.016Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=7 containing  Contact us"}
+{"level":30,"time":"2026-01-02T09:23:40.016Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:40.023Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-01-02T09:23:40.023Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
+{"level":30,"time":"2026-01-02T09:23:40.023Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-01-02T09:23:40.029Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
+{"level":30,"time":"2026-01-02T09:23:40.030Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
+{"level":30,"time":"2026-01-02T09:23:40.038Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:40.038Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-02T09:23:40.053Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:40.053Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:40.067Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:40.072Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:40.072Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-02T09:23:40.084Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
+{"level":30,"time":"2026-01-02T09:23:40.084Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:40.091Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2026-01-02T09:23:40.091Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 >> a in page."}
+{"level":30,"time":"2026-01-02T09:23:40.106Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element css=#header .shop-menu li >> nth=0 >> a containing color: orange;"}
+{"level":30,"time":"2026-01-02T09:23:40.106Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2026-01-02T09:23:40.114Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
+{"level":30,"time":"2026-01-02T09:23:40.114Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
+{"level":30,"time":"2026-01-02T09:23:40.120Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
+{"level":30,"time":"2026-01-02T09:23:40.125Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:40.125Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
+{"level":30,"time":"2026-01-02T09:23:40.218Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Element id=slider-carousel >> .carousel-inner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=slider-carousel').locator('.carousel-inner')\u001b[22m\n"}
+{"level":30,"time":"2026-01-02T09:23:40.218Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-02T09:23:40.243Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-02T09:23:40.247Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:40.248Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
+{"level":30,"time":"2026-01-02T09:23:40.266Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=slider-carousel >> .carousel-inner containing AutomationExercise\nFull-Fledged practice website for Automation Engineers\n\nAll QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.\n\nTest Cases APIs list for practice"}
+{"level":30,"time":"2026-01-02T09:23:40.266Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:40.273Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
+{"level":30,"time":"2026-01-02T09:23:40.274Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> a >> text=Test Cases in page."}
+{"level":30,"time":"2026-01-02T09:23:40.870Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
+{"level":30,"time":"2026-01-02T09:23:40.875Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-01-02T09:23:40.876Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"timeout: 10000 state: domcontentloaded"}
+{"level":30,"time":"2026-01-02T09:23:41.100Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-01-02T09:23:41.112Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:41.112Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=form >> .container >> h2 in page."}
+{"level":30,"time":"2026-01-02T09:23:41.145Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=form >> .container >> h2 containing TEST CASES"}
+{"level":30,"time":"2026-01-02T09:23:41.145Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-02T09:23:41.154Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-01-02T09:23:41.154Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: h4.panel-title >> text=Test Case in page."}
+{"level":30,"time":"2026-01-02T09:23:41.154Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-01-02T09:23:41.163Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Found 26 elements."}
+{"level":30,"time":"2026-01-02T09:23:41.163Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
+{"level":30,"time":"2026-01-02T09:23:46.179Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-01-02T09:23:46.211Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Removed page=46723018-510f-44b4-b9ca-9bfb2f08a4fe from context=772a89b7-8435-4d57-9ab6-4481072349ec page stack"}
+{"level":30,"time":"2026-01-02T09:23:46.765Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
@@ -336,8 +165,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
 =============================================================
-{"level":30,"time":"2026-01-02T08:48:21.547Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-01-02T08:48:21.548Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-02T09:23:46.785Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-02T09:23:46.785Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
@@ -351,7 +180,7 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
 =============================================================
-{"level":30,"time":"2026-01-02T08:48:21.559Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-01-02T08:48:21.559Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-01-02T08:48:23.422Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-01-02T08:48:23.423Z","pid":28740,"hostname":"NG-SS-LPT-040798","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-01-02T09:23:46.796Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-02T09:23:46.796Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-02T09:23:48.440Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-01-02T09:23:48.440Z","pid":27608,"hostname":"NG-SS-LPT-040798","msg":"End of node method closeAllBrowsers"}
