@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Tests for Contact Us Form, Test Cases, Products, Search, Subscription
+Documentation       Tests for Contact Us Form, Test Cases
 
 Resource            reusables.resource
 Resource            ../page_objects/contact_us_page.resource
