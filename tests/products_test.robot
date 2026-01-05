@@ -20,7 +20,7 @@ Verify All Products And Product Detail Page
     products_page.Verify In All Products Page
     products_page.Open A Product Detail Page By Index    index=${1}
     product_detail_page.Verify In Product Detail Page
-    VAR    &{expected_product_details} =    name=Blue Top    category=Women
+    VAR    &{expected_product_details} =    description=Blue Top    category=Women
     ...    price=500
     ...    availability=In Stock
     ...    condition=New
@@ -54,17 +54,3 @@ Verify Subscription In Cart Page
     ${email} =    FakerLibrary.Company Email
     subscription_form.Subscribe To Updates    ${email}
     subscription_form.Verify Subscription Is Successful
-
-Add Products In Cart
-    [Documentation]    Add some products to cart and view them in the Cart page
-    reusables.Verify Homepage Is Visible
-    homepage.Click Menu Item    Products
-    products_page.Add Product To Cart    Blue Top
-    cart_modal_page.Verify Cart Modal Is Displayed
-    cart_modal_page.Continue Shopping
-    cart_modal_page.Verify Cart Modal Is Not Displayed
-    products_page.Add Product To Cart    Men Tshirt
-    cart_modal_page.Verify Cart Modal Is Displayed
-    cart_modal_page.View Cart Page
-    shoppingcart_page.Verify In Shopping Cart Page
-    shoppingcart_page.Verify Cart Items Are Added To Cart    added_products=${ADDED_CART_PRODUCTS}

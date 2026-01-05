@@ -4,11 +4,13 @@ Documentation       Page object for Products List page elements and verification
 Library             Collections
 Library             OperatingSystem
 Library             Browser
+Library             FakerLibrary
 
 
 *** Variables ***
 ${PRODUCTS_SECTION}             section >> nth=1 >> .container
 ${ALL_PRODUCTS}                 ${PRODUCTS_SECTION} >> .features_items
+${RECOMMENDED_ITEMS}            ${PRODUCTS_SECTION} >> .recommended_items
 ${ALL_PRODUCTS_HEADER}          ${ALL_PRODUCTS} >> h2.title
 ${PRODUCT_ITEM}                 ${ALL_PRODUCTS} >> .product-image-wrapper
 ${PRODUCT_NAME}                 .productinfo >> p
@@ -18,6 +20,7 @@ ${PRODUCT_CART_BUTTON}          .product-overlay >> a
 ${SEARCH_INPUT}                 id=search_product
 ${SEARCH_BUTTON}                id=submit_search
 
+${PRODUCTS_COUNT}               ${34}
 @{ADDED_CART_PRODUCTS}          @{EMPTY}
 
 
@@ -27,7 +30,7 @@ Verify In All Products Page
     Get Url    contains    products
     Get Text    ${ALL_PRODUCTS_HEADER}    ==    ALL PRODUCTS
     ${products} =    Get Elements    ${PRODUCT_ITEM}
-    Length Should Be    ${products}    34
+    Length Should Be    ${products}    ${PRODUCTS_COUNT}
 
 Open A Product Detail Page By Index
     [Documentation]    Click the View Product button of a product given its index
@@ -107,3 +110,8 @@ Get Added Product Details
     ${price} =    Get Text    ${locator} >> ${PRODUCT_PRICE}
     VAR    &{product_info} =    description=${name}    price=${price}    quantity=${1}    total=${price}
     RETURN    ${product_info}
+
+Randomly Select A Product By Index
+    [Documentation]    Pick a product index by randomizing between 1 and 34
+    ${index} =    FakerLibrary.Random Int    min=1    max=${PRODUCTS_COUNT}
+    RETURN    ${index}
