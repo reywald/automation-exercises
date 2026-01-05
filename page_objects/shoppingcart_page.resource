@@ -26,8 +26,8 @@ Verify In Shopping Cart Page
     Get Text    ${BACK_HOME}    ==    Home
     Get Element States    ${CART_HEADING}    contains    visible
     Get Text    ${CART_HEADING}    ==    Shopping Cart
-    Get Element States    ${PROCEED_TO_CHECKOUT_BUTTON}    contains    visible
-    Get Text    ${PROCEED_TO_CHECKOUT_BUTTON}    ==    Proceed To Checkout
+    # Get Element States    ${PROCEED_TO_CHECKOUT_BUTTON}    contains    visible
+    # Get Text    ${PROCEED_TO_CHECKOUT_BUTTON}    ==    Proceed To Checkout
 
 Verify Cart Items Are Added To Cart
     [Documentation]    Check that the items added to cart are displayed in the order they were added

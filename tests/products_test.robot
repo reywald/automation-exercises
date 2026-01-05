@@ -6,6 +6,7 @@ Resource            ../page_objects/products_page.resource
 Resource            ../page_objects/product_detail_page.resource
 Resource            ../page_objects/cart_modal_page.resource
 Resource            ../page_objects/shoppingcart_page.resource
+Resource            ../page_objects/subscription_form.resource
 
 Test Setup          browsing.Open Website
 Test Teardown       browsing.Close Browser Session
@@ -35,13 +36,24 @@ Search For A Product And Verify Results
     products_page.Verify Search Returns Matched Products    search_str=Top
 
 Verify Subscription In Home Page
-    [Documentation]    Test to make a subscription
+    [Documentation]    Test to make a subscription from the Home page
     reusables.Verify Homepage Is Visible
-    homepage.Scroll To Bottom Of Home Page
-    homepage.Verify Subscription Form Is Visible
+    subscription_form.Scroll To Bottom Of Page
+    subscription_form.Verify Subscription Form Is Visible
     ${email} =    FakerLibrary.Company Email
-    homepage.Subscribe To Updates    ${email}
-    homepage.Verify Subscription Is Successful
+    subscription_form.Subscribe To Updates    ${email}
+    subscription_form.Verify Subscription Is Successful
+
+Verify Subscription In Cart Page
+    [Documentation]    Test to make a subscription from the Shopping Cart page
+    reusables.Verify Homepage Is Visible
+    homepage.Click Menu Item    Cart
+    shoppingcart_page.Verify In Shopping Cart Page
+    subscription_form.Scroll To Bottom Of Page
+    subscription_form.Verify Subscription Form Is Visible
+    ${email} =    FakerLibrary.Company Email
+    subscription_form.Subscribe To Updates    ${email}
+    subscription_form.Verify Subscription Is Successful
 
 Add Products In Cart
     [Documentation]    Add some products to cart and view them in the Cart page
