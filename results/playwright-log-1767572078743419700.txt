@@ -1,0 +1,434 @@
+{"level":30,"time":"2026-01-05T00:14:41.301Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Listening on 127.0.0.1:53264"}
+{"level":30,"time":"2026-01-05T00:14:41.807Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-01-05T00:14:42.918Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Adding browser to stack: chromium, version: 138.0.7204.23"}
+{"level":30,"time":"2026-01-05T00:14:42.918Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-01-05T00:14:42.918Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-01-05T00:14:42.933Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-01-05T00:14:42.934Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1536,\"height\":816}}"}
+{"level":30,"time":"2026-01-05T00:14:42.934Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@862a65c52ff5fc92d78a06457d1acbaf\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=7b0d4e1a-1249-43c0-a4af-9bb170636863\"}"}
+{"level":30,"time":"2026-01-05T00:14:42.934Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Trace file: "}
+{"level":30,"time":"2026-01-05T00:14:42.959Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Setting default timeout for context context=cd3ea9be-d0c5-4f74-b36a-238a04008a47 to 10000"}
+{"level":30,"time":"2026-01-05T00:14:42.960Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Changed active context: context=cd3ea9be-d0c5-4f74-b36a-238a04008a47"}
+{"level":30,"time":"2026-01-05T00:14:42.964Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method newContext"}
+{"level":30,"time":"2026-01-05T00:14:42.974Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-01-05T00:14:42.975Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@862a65c52ff5fc92d78a06457d1acbaf\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=cd3ea9be-d0c5-4f74-b36a-238a04008a47\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@4c3c0e167bfa71f670c7b930a246a2dd\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1536,\"height\":816}},\"traceFile\":\"\"}],\"id\":\"browser=7b0d4e1a-1249-43c0-a4af-9bb170636863\"}"}
+{"level":30,"time":"2026-01-05T00:14:44.069Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Video path: undefined"}
+{"level":30,"time":"2026-01-05T00:14:44.070Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Changed active page"}
+{"level":30,"time":"2026-01-05T00:14:47.097Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method newPage"}
+{"level":30,"time":"2026-01-05T00:14:47.114Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
+{"level":30,"time":"2026-01-05T00:14:47.115Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
+{"level":30,"time":"2026-01-05T00:14:47.164Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
+{"level":30,"time":"2026-01-05T00:14:47.174Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.176Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
+{"level":30,"time":"2026-01-05T00:14:47.214Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=header >> img is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=header').locator('img')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:47.214Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:47.264Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.275Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2026-01-05T00:14:47.276Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=header >> img in page."}
+{"level":30,"time":"2026-01-05T00:14:47.298Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element id=header >> img containing Website for automation practice"}
+{"level":30,"time":"2026-01-05T00:14:47.298Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2026-01-05T00:14:47.314Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:47.314Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
+{"level":30,"time":"2026-01-05T00:14:47.315Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-01-05T00:14:47.339Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
+{"level":30,"time":"2026-01-05T00:14:47.342Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:47.356Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.356Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.396Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:47.396Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:47.423Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.431Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.431Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.456Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
+{"level":30,"time":"2026-01-05T00:14:47.457Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.469Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.469Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.500Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=1 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(1)\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:47.500Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:47.634Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.641Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.641Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=1 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.662Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=1 containing  Products"}
+{"level":30,"time":"2026-01-05T00:14:47.663Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.670Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.670Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.701Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=2 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(2)\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:47.701Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:47.723Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.731Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.731Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=2 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.764Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=2 containing  Cart"}
+{"level":30,"time":"2026-01-05T00:14:47.764Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.774Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.774Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.808Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=3 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(3)\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:47.808Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:47.834Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.844Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.844Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=3 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.868Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=3 containing  Signup / Login"}
+{"level":30,"time":"2026-01-05T00:14:47.868Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.876Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.876Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.904Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=4 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(4)\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:47.904Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:47.924Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.934Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.934Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=4 in page."}
+{"level":30,"time":"2026-01-05T00:14:47.958Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=4 containing  Test Cases"}
+{"level":30,"time":"2026-01-05T00:14:47.958Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:47.968Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:47.968Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.002Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=5 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(5)\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:48.002Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:48.036Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.043Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.043Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=5 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.068Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=5 containing  API Testing"}
+{"level":30,"time":"2026-01-05T00:14:48.068Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.075Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.075Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.105Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=6 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(6)\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:48.105Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:48.131Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.142Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.143Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=6 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.190Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=6 containing  Video Tutorials"}
+{"level":30,"time":"2026-01-05T00:14:48.190Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.206Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.206Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.338Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=7 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').nth(7)\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:48.338Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:48.360Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.368Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.368Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=7 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.391Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=7 containing  Contact us"}
+{"level":30,"time":"2026-01-05T00:14:48.391Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.399Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:48.399Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: css=#header .shop-menu li in page."}
+{"level":30,"time":"2026-01-05T00:14:48.399Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-01-05T00:14:48.408Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Found 8 elements."}
+{"level":30,"time":"2026-01-05T00:14:48.408Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:48.420Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.420Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.439Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element css=#header .shop-menu li >> nth=0 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('#header .shop-menu li').first()\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:48.439Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:48.457Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.464Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.464Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 in page."}
+{"level":30,"time":"2026-01-05T00:14:48.486Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element css=#header .shop-menu li >> nth=0 containing  Home"}
+{"level":30,"time":"2026-01-05T00:14:48.487Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.495Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2026-01-05T00:14:48.495Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> nth=0 >> a in page."}
+{"level":30,"time":"2026-01-05T00:14:48.518Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved attribute for element css=#header .shop-menu li >> nth=0 >> a containing color: orange;"}
+{"level":30,"time":"2026-01-05T00:14:48.518Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2026-01-05T00:14:48.524Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElement"}
+{"level":30,"time":"2026-01-05T00:14:48.524Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
+{"level":30,"time":"2026-01-05T00:14:48.528Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElement"}
+{"level":30,"time":"2026-01-05T00:14:48.536Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.537Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
+{"level":30,"time":"2026-01-05T00:14:48.554Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=slider-carousel >> .carousel-inner is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=slider-carousel').locator('.carousel-inner')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:48.554Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:48.570Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:48.576Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.576Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=slider-carousel >> .carousel-inner in page."}
+{"level":30,"time":"2026-01-05T00:14:48.591Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=slider-carousel >> .carousel-inner containing AutomationExercise\nFull-Fledged practice website for Automation Engineers\n\nAll QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.\n\nTest Cases APIs list for practice"}
+{"level":30,"time":"2026-01-05T00:14:48.591Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:48.603Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
+{"level":30,"time":"2026-01-05T00:14:48.603Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with css=#header .shop-menu li >> a >> text=Products in page."}
+{"level":30,"time":"2026-01-05T00:14:49.246Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
+{"level":30,"time":"2026-01-05T00:14:49.253Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-01-05T00:14:49.254Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"timeout: 10000 state: domcontentloaded"}
+{"level":30,"time":"2026-01-05T00:14:49.320Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-01-05T00:14:49.346Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:49.346Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: section >> nth=1 >> .container >> .features_items >> .product-image-wrapper in page."}
+{"level":30,"time":"2026-01-05T00:14:49.346Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-01-05T00:14:49.428Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Found 34 elements."}
+{"level":30,"time":"2026-01-05T00:14:49.433Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:49.444Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:49.444Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 in page."}
+{"level":30,"time":"2026-01-05T00:14:49.476Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 containing Rs. 500\n\nBlue Top\n\nAdd to cart\nRs. 500\n\nBlue Top\n\nAdd to cart\nView Product"}
+{"level":30,"time":"2026-01-05T00:14:49.476Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:49.495Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method hover"}
+{"level":30,"time":"2026-01-05T00:14:49.495Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 in page."}
+{"level":30,"time":"2026-01-05T00:14:49.532Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method hover"}
+{"level":30,"time":"2026-01-05T00:14:49.538Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
+{"level":30,"time":"2026-01-05T00:14:49.538Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 >> .product-overlay >> a in page."}
+{"level":30,"time":"2026-01-05T00:14:50.521Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
+{"level":30,"time":"2026-01-05T00:14:50.529Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:50.529Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 >> .productinfo >> p in page."}
+{"level":30,"time":"2026-01-05T00:14:50.558Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 >> .productinfo >> p containing Blue Top"}
+{"level":30,"time":"2026-01-05T00:14:50.558Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:50.570Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:50.571Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 >> .productinfo >> h2 in page."}
+{"level":30,"time":"2026-01-05T00:14:50.602Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 >> .productinfo >> h2 containing Rs. 500"}
+{"level":30,"time":"2026-01-05T00:14:50.602Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:50.631Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.631Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.667Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.667Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.681Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.681Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.694Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.694Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.708Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.708Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.722Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.722Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.736Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.736Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.747Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.747Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.762Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.762Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.775Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.775Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.789Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.789Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.803Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.803Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.817Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.817Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.831Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.831Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.845Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.846Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.857Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.857Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.871Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.871Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.886Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.886Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.900Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.900Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.915Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.915Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.931Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.931Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.945Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.945Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.962Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.962Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.974Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.974Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.987Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:50.987Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:50.998Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:50.999Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.013Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.013Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:51.025Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:51.025Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.039Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.039Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:51.057Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:51.057Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.074Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.074Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:51.110Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:51.111Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.118Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:51.118Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> h4 in page."}
+{"level":30,"time":"2026-01-05T00:14:51.142Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cartModal >> h4 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cartModal').locator('h4')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:51.142Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:51.163Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:51.170Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.170Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> h4 in page."}
+{"level":30,"time":"2026-01-05T00:14:51.188Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cartModal >> h4 containing Added!"}
+{"level":30,"time":"2026-01-05T00:14:51.188Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.196Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:51.196Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-body >> a[href=\"/view_cart\"] in page."}
+{"level":30,"time":"2026-01-05T00:14:51.219Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cartModal >> .modal-body >> a[href=\"/view_cart\"] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cartModal').locator('.modal-body').locator('a[href=\"/view_cart\"]')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:51.219Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:51.234Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:51.246Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.246Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-body >> a[href=\"/view_cart\"] in page."}
+{"level":30,"time":"2026-01-05T00:14:51.274Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cartModal >> .modal-body >> a[href=\"/view_cart\"] containing View Cart"}
+{"level":30,"time":"2026-01-05T00:14:51.274Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.285Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:51.285Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-footer >> button.close-modal in page."}
+{"level":30,"time":"2026-01-05T00:14:51.319Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cartModal >> .modal-footer >> button.close-modal is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cartModal').locator('.modal-footer').locator('button.close-modal')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:51.319Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:51.340Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:51.349Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.350Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-footer >> button.close-modal in page."}
+{"level":30,"time":"2026-01-05T00:14:51.387Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cartModal >> .modal-footer >> button.close-modal containing Continue Shopping"}
+{"level":30,"time":"2026-01-05T00:14:51.387Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.396Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
+{"level":30,"time":"2026-01-05T00:14:51.396Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-footer >> button.close-modal in page."}
+{"level":30,"time":"2026-01-05T00:14:51.450Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
+{"level":30,"time":"2026-01-05T00:14:51.458Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.458Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:51.484Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:51.484Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:51.498Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:51.498Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is disabled, return Locator: section >> nth=1 >> .container >> .features_items >> .product-image-wrapper in page."}
+{"level":30,"time":"2026-01-05T00:14:51.498Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-01-05T00:14:51.513Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Found 34 elements."}
+{"level":30,"time":"2026-01-05T00:14:51.519Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElements"}
+{"level":30,"time":"2026-01-05T00:14:51.533Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.534Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 in page."}
+{"level":30,"time":"2026-01-05T00:14:51.563Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=0 containing Rs. 500\n\nBlue Top\n\nAdd to cart\nRs. 500\n\nBlue Top\n\nAdd to cart\nView Product"}
+{"level":30,"time":"2026-01-05T00:14:51.563Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.575Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.576Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 in page."}
+{"level":30,"time":"2026-01-05T00:14:51.607Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 containing Rs. 400\n\nMen Tshirt\n\nAdd to cart\nRs. 400\n\nMen Tshirt\n\nAdd to cart\nView Product"}
+{"level":30,"time":"2026-01-05T00:14:51.607Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:51.624Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method hover"}
+{"level":30,"time":"2026-01-05T00:14:51.624Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 in page."}
+{"level":30,"time":"2026-01-05T00:14:51.685Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method hover"}
+{"level":30,"time":"2026-01-05T00:14:51.692Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
+{"level":30,"time":"2026-01-05T00:14:51.692Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 >> .product-overlay >> a in page."}
+{"level":30,"time":"2026-01-05T00:14:52.630Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
+{"level":30,"time":"2026-01-05T00:14:52.638Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:52.638Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 >> .productinfo >> p in page."}
+{"level":30,"time":"2026-01-05T00:14:52.658Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 >> .productinfo >> p containing Men Tshirt"}
+{"level":30,"time":"2026-01-05T00:14:52.658Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:52.668Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:52.668Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 >> .productinfo >> h2 in page."}
+{"level":30,"time":"2026-01-05T00:14:52.691Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element section >> nth=1 >> .container >> .features_items >> .product-image-wrapper >> nth=1 >> .productinfo >> h2 containing Rs. 400"}
+{"level":30,"time":"2026-01-05T00:14:52.691Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:52.717Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.717Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.733Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.733Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.748Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.748Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.763Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.763Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.782Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.782Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.795Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.796Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.817Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.817Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.831Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.831Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.846Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.846Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.859Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.862Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.881Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.881Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.894Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.894Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.908Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.908Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.919Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.919Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.934Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.934Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.944Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.944Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.958Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.958Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.968Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.968Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.983Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:52.983Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal in page."}
+{"level":30,"time":"2026-01-05T00:14:52.995Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved dom property for element id=cartModal containing [object Object]"}
+{"level":30,"time":"2026-01-05T00:14:52.995Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-01-05T00:14:53.001Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.001Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> h4 in page."}
+{"level":30,"time":"2026-01-05T00:14:53.025Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cartModal >> h4 is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cartModal').locator('h4')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:53.025Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:53.043Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.051Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.051Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> h4 in page."}
+{"level":30,"time":"2026-01-05T00:14:53.083Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cartModal >> h4 containing Added!"}
+{"level":30,"time":"2026-01-05T00:14:53.083Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.089Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.089Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-body >> a[href=\"/view_cart\"] in page."}
+{"level":30,"time":"2026-01-05T00:14:53.114Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cartModal >> .modal-body >> a[href=\"/view_cart\"] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cartModal').locator('.modal-body').locator('a[href=\"/view_cart\"]')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:53.114Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:53.136Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.145Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.145Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-body >> a[href=\"/view_cart\"] in page."}
+{"level":30,"time":"2026-01-05T00:14:53.170Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cartModal >> .modal-body >> a[href=\"/view_cart\"] containing View Cart"}
+{"level":30,"time":"2026-01-05T00:14:53.170Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.180Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-footer >> button.close-modal in page."}
+{"level":30,"time":"2026-01-05T00:14:53.180Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.206Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cartModal >> .modal-footer >> button.close-modal is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cartModal').locator('.modal-footer').locator('button.close-modal')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:53.206Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:53.225Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.236Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.236Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-footer >> button.close-modal in page."}
+{"level":30,"time":"2026-01-05T00:14:53.262Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cartModal >> .modal-footer >> button.close-modal containing Continue Shopping"}
+{"level":30,"time":"2026-01-05T00:14:53.262Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.273Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method click"}
+{"level":30,"time":"2026-01-05T00:14:53.273Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cartModal >> .modal-body >> a[href=\"/view_cart\"] in page."}
+{"level":30,"time":"2026-01-05T00:14:53.763Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method click"}
+{"level":30,"time":"2026-01-05T00:14:53.770Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-01-05T00:14:53.770Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"timeout: 10000 state: domcontentloaded"}
+{"level":30,"time":"2026-01-05T00:14:53.804Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-01-05T00:14:53.857Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.857Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> .breadcrumb >> a in page."}
+{"level":30,"time":"2026-01-05T00:14:53.905Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cart_items >> .breadcrumb >> a is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cart_items').locator('.breadcrumb').locator('a')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:53.905Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:53.937Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.944Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> .breadcrumb >> a in page."}
+{"level":30,"time":"2026-01-05T00:14:53.944Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.964Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cart_items >> .breadcrumb >> a containing Home"}
+{"level":30,"time":"2026-01-05T00:14:53.965Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:53.972Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:53.972Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> .breadcrumb >> li.active in page."}
+{"level":30,"time":"2026-01-05T00:14:54.000Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cart_items >> .breadcrumb >> li.active is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cart_items').locator('.breadcrumb').locator('li.active')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:54.000Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:54.017Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:54.024Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:54.024Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> .breadcrumb >> li.active in page."}
+{"level":30,"time":"2026-01-05T00:14:54.042Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cart_items >> .breadcrumb >> li.active containing Shopping Cart"}
+{"level":30,"time":"2026-01-05T00:14:54.043Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:54.051Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:54.051Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> id=do_action >> a.check_out in page."}
+{"level":30,"time":"2026-01-05T00:14:54.069Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cart_items >> id=do_action >> a.check_out is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cart_items').locator('id=do_action').locator('a.check_out')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:54.069Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:54.085Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:54.092Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:54.092Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> id=do_action >> a.check_out in page."}
+{"level":30,"time":"2026-01-05T00:14:54.112Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cart_items >> id=do_action >> a.check_out containing Proceed To Checkout"}
+{"level":30,"time":"2026-01-05T00:14:54.113Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:54.177Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:54.177Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> id=cart_info >> id=cart_info_table >> tr.cart_menu in page."}
+{"level":30,"time":"2026-01-05T00:14:54.191Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Element id=cart_items >> id=cart_info >> id=cart_info_table >> tr.cart_menu is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=cart_items').locator('id=cart_info').locator('id=cart_info_table').locator('tr.cart_menu')\u001b[22m\n"}
+{"level":30,"time":"2026-01-05T00:14:54.191Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Checking checked state"}
+{"level":30,"time":"2026-01-05T00:14:54.208Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-01-05T00:14:54.217Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:54.217Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Strict mode is enabled, find Locator with id=cart_items >> id=cart_info >> id=cart_info_table >> tr.cart_menu in page."}
+{"level":30,"time":"2026-01-05T00:14:54.254Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Retrieved text for element id=cart_items >> id=cart_info >> id=cart_info_table >> tr.cart_menu containing Item\tDescription\tPrice\tQuantity\tTotal\t"}
+{"level":30,"time":"2026-01-05T00:14:54.254Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-05T00:14:59.282Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-01-05T00:14:59.318Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Removed page=b01c8e6a-df05-4e6b-b210-a628aa481a35 from context=cd3ea9be-d0c5-4f74-b36a-238a04008a47 page stack"}
+{"level":30,"time":"2026-01-05T00:15:00.392Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-01-05T00:15:00.412Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-05T00:15:00.412Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (c:\Users\Ikechukwu Agbarakwe\Documents\Learning\learn-robotframework\automation-exercises\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-01-05T00:15:00.432Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-05T00:15:00.433Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-05T00:15:02.276Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-01-05T00:15:02.276Z","pid":35560,"hostname":"NG-SS-LPT-040798","msg":"End of node method closeAllBrowsers"}
