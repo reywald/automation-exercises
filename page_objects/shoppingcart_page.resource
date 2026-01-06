@@ -16,6 +16,8 @@ ${PROCEED_TO_CHECKOUT_BUTTON}       ${ACTION_SECTION} >> a.check_out
 ${CART_INFO_SECTION}                id=cart_info
 ${CART_INFO_TABLE}                  id=cart_info_table
 ${CART_INFO_TABLE_HEADER}           ${CART_INFO_TABLE} >> tr.cart_menu
+${CART_INFO_TABLE_ROW}              ${CART_INFO_TABLE} >> tbody >> tr
+${CART_INFO_ROW_DELETE_BUTTON}      ${CART_INFO_TABLE_ROW} >> td.cart_delete a.cart_quantity_delete
 
 
 *** Keywords ***
@@ -78,3 +80,15 @@ Verify Cart Item Total
     [Arguments]    ${total: str}    ${idx: int}
     ${item_total} =    Get Table Cell Element    ${CART_INFO_TABLE}    "Total"    ${idx}
     Get Text    ${item_total}    ==    ${total}
+
+Remove Cart Item
+    [Documentation]    Remove a cart item from the cart given its name
+    [Arguments]    ${index}
+    ${delete_button} =    Get Element    ${CART_INFO_ROW_DELETE_BUTTON} >> nth=${index}
+    Click    ${delete_button}
+    Wait For Load State    domcontentloaded
+
+Verify Cart Item Is Removed
+    [Documentation]    Verifies the removed cart item no longer appears in the shopping cart
+    [Arguments]    ${product_name}
+    Wait For Elements State    ${CART_INFO_TABLE_ROW} >> text=${product_name}    detached    timeout=3 seconds

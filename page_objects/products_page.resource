@@ -115,3 +115,11 @@ Randomly Select A Product By Index
     [Documentation]    Pick a product index by randomizing between 1 and 34
     ${index} =    FakerLibrary.Random Int    min=1    max=${PRODUCTS_COUNT}
     RETURN    ${index}
+
+Randomly Select A Product By Name
+    [Documentation]    Pick a product in the products' list by its name and return the match's locator
+    ${products_list} =    Get Elements    ${PRODUCT_ITEM}
+
+    ${product} =    FakerLibrary.Random Element    ${products_list}
+    ${text_content} =    Get Text    ${product} >> ${PRODUCT_NAME}
+    RETURN    ${text_content}

@@ -64,3 +64,11 @@ Generate Contact Us Details
     ${message}=    Catenate    @{message}
     VAR    &{CONTACT_US_DETAILS}=    name=${name}    email=${email}    subject=${subject}    message=${message}
     RETURN    ${CONTACT_US_DETAILS}
+
+Generate A Random Sample Of Ints
+    [Documentation]    Take an upper bound number and generate a sample
+    [Arguments]    ${size: int}
+    ${length}=    FakerLibrary.Random Int    min=1    max=${size}
+    ${num_range}=    Evaluate    list(range(${size}))
+    ${sample}=    FakerLibrary.Random Sample    ${num_range}    ${length}
+    RETURN    ${sample}
